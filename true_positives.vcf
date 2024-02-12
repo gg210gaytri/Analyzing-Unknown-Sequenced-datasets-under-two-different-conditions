@@ -1,0 +1,21 @@
+##fileformat=VCFv4.2
+##contig=<ID=NC_000962.3,length=4411532>
+##contig=<ID=B_PB2,length=1000000>
+##contig=<ID=B_PB1,length=1000000>
+##contig=<ID=B_PA,length=1000000>
+##contig=<ID=B_NP,length=1000000>
+##contig=<ID=B_NA,length=1000000>
+##contig=<ID=B_MP,length=1000000>
+##contig=<ID=B_HA,length=1000000>
+##INFO=<ID=Drugs,Number=1,Type=String,Description="AMR drugs">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FILTER=<ID=PASS,Description="All filters passed">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	Sample1
+B_PB2	1101	.	A	G	.	.	.	.	.
+B_PB1	1893	.	G	A	.	.	.	.	.
+B_PA	1290	.	C	T	.	.	.	.	.
+B_NP	687	.	G	A	.	.	.	.	.
+B_NA	153	.	C	T	.	.	.	.	.
+B_MP	633	.	GC	AT	.	.	.	.	.
+B_HA	408	.	T	C	.	.	.	.	.
